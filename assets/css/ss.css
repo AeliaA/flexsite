@@ -1,0 +1,85 @@
+header, footer {
+	background-color: purple;
+}
+
+p {
+	color: black;
+	padding:20px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px;
+}
+
+.logo {
+margin:10px;
+height: 50px;
+width: 50px;
+}
+
+.layout{
+	background-color: white;
+	}
+
+.navigation{
+	text-decoration: none;
+	padding: 10px;
+	width: 98%;
+	margin: 0 auto;
+}
+
+
+.wrapper {
+	height: 500px;
+	margin:0 auto;
+	display: flex;
+	-webkit-webkit: column;
+	-moz-webkit: column;
+	-ms-webkit: column;
+	-o-webkit: column;
+	webkit: column;
+	flex-direction: column;
+}
+
+
+.box1 {
+	background: pink;
+	width: auto;
+}
+.box2 {
+	background: pink;
+	width: auto;
+}	
+
+.box3 {
+	background: pink;
+	width: auto;
+}
+
+.box4 {
+	background: pink;
+	width: auto;
+}
+
+@media screen and (min-width: 600px){
+
+.navigation {
+	display: flex;
+	/*justify-content: space-around;*/
+	background: pink;
+}
+
+a {
+	font-size: 16px;
+	padding: 10px;
+}
+
+.box1, .box2, .box3, .box4 {
+flex-grow:1;
+}
+} 
+
